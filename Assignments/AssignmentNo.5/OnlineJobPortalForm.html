@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal Form</title>
+</head>
+<body>
+    
+    <fieldset>
+        <legend>1. Personal Information</legend>
+
+        <label>Full Name :</label>
+        <input type="text" placeholder="Enter your full name">
+        <br><br>
+
+        <label>Create Password :</label>
+        <input type="password" placeholder="Enter password">
+        <br><br>
+
+        <label>Email Address :</label>
+        <input type="email">
+        <br><br>
+
+        <label>Mobile Number :</label>
+        <input type="number">
+        <br><br>
+
+        <label>Age :</label>
+        <input type="number">
+        <br><br>
+
+        <label>Date of Birth :</label>
+        <input type="date">
+        <br><br>
+
+        <label>Gender :</label>
+        <input type="radio">Male
+        <input type="radio">Female
+        <input type="radio">Other
+        <br><br>
+
+        <label>Current Address :</label>
+        <textarea placeholder="Enter your address"></textarea>
+        <br><br>
+
+        <label>profile Photograph :</label>
+        <input type="file">
+
+        <label>Portfolio website :</label>
+        <input type="url" placeholder="https://127.0.0.1:5500/">
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+        <legend>2. Educational background</legend>
+
+        <label>Highest Qualification :</label>
+        <select>
+            <option> -- Select Qualification -- </option>
+            <option>SSC</option>
+            <option>Diploma</option>
+            <option>BE/BTech</option>
+        </select>
+        <br><br>
+
+        <label>College name :</label>
+        <input type="text" placeholder="Enter college name">
+        <br><br>
+
+        <label>Graduation Month :</label>
+        <input type="month">
+        <br><br>
+
+        <label>Preferred Internship week :</label>
+        <input type="week">
+        <br><br>
+
+        <label>Graduation Year :</label>
+        <input type="text">
+        <br><br>
+
+        <label>Certification Completed :</label>
+        <input type="checkbox">Java
+        <input type="checkbox">Python
+        <input type="checkbox">Web Development
+        <br><br>
+
+        <label>Preferred Interview Date :</label>
+        <input type="datetime-local">
+        <br><br>
+
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+        <legend>3. Job Preferences</legend>
+
+        <label>Search Job Role :</label>
+        <input type="text" placeholder="Search Job Portal">
+        <br><br>
+
+        <label>Select Job Role :</label>
+        <select>
+            <option>--Select Job Role--</option>
+            <option>Backend Devloper</option>
+            <option>Frontend Devloper</option>
+            <option>Devops</option>
+        </select>
+        <br><br>
+
+        <label>Employment Type :</label>
+        <input type="radio" name="a">Full Time
+        <input type="radio" name="a">Part Time
+        <input type="radio" name="a">Internship
+        <br><br>
+        
+        <label>Expected Salary(INR) :</label>
+        <input type="number">
+        <br><br>
+
+        <label>Preferred Interview Time :</label>
+        <input type="time">
+        <br><br>
+
+        <label>Preferred Theme Color :</label>
+        <input type="color">
+        <br><br>
+
+        <label>Coding Cofidence(0-10) :</label>
+        <input type="range">
+        <br><br>
+
+        <label>LinkedIn Profile :</label>
+        <input type="url">
+    </fieldset>
+
+    <br><br>
+    <fieldset>
+        <legend>4. Technical Skills and Experience</legend>
+
+        <label>Years of Experience :</label>
+        <input type="number">
+        <br><br>
+
+        <label>Preferred Technology :</label>
+        <input type="text">
+        <br><br>
+
+        <label>Technical Skills :</label>
+        <select multiple size="5f">
+            <option>HTML</option>    
+            <option>CSS</option>    
+            <option>React</option>    
+            <option>Servlet</option>    
+            <option>Hibernate</option>    
+            <option>Java</option>    
+            <option>Spring Boot</option>    
+        </select>
+        <br><br>
+
+        <label>Upload Resume(PDF only) :</label>
+        <input type="file">
+        <br><br>
+
+        <label>Upload Certificate :</label>
+        <input type="file">
+        <br><br>
+
+        <label>Why should we hire you :</label><br>
+        <textarea placeholder="Descride your skills and strength"></textarea>
+
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+        <legend>5. Skills Assessment and Application Status </legend>
+
+        <label for="">HTML Skill Level :</label> <br>
+        <meter value="80" max="100"></meter>
+        <br><br>
+
+        <label for="">Application Completion :</label>
+        <progress max="100" value="50"></progress>
+        <br><br>
+
+        <label for="">Application Status: Ready for submission</label> <br><br>
+        <input type="checkbox">I confirm that the info provided is correct
+
+    </fieldset>
+
+    <br>
+
+    <input type="button" value="Submit Application">
+    <input type="button" value="Reset Form">
+    <button>Help</button>
+    <button>Preview Application</button>
+
+    <br><br><br><br><br><br><br><br><br><br>
+
+    <fieldset>
+        <legend>Seaarch Available Jobs</legend>
+
+        <label for="">Job Title :</label>
+        <input type="text"> <button>Search Jobs</button>
+    </fieldset>
+
+    <br><br>
+
+    <fieldset>
+        <legend>Read Only and Disabled Fields</legend>
+        <label for="">Application ID :</label>
+        <input type="text"  placeholder="JOB20261001"  title="Hello" readonly>
+        <br><br>
+
+        <label for="">Company :</label>
+        <input type="text" placeholder="TCS" disabled>
+        <br><br>
+
+        <input type="button" value="Update Profile">    
+    </fieldset>
+    <hr>
+</body>
+</html>
