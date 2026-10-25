@@ -1,0 +1,43 @@
+/* h1{
+    color: aquamarine;
+    font-style: italic;
+}
+
+h2,p{
+    color:red
+} */
+
+/* *{
+    color: blue;
+} */
+
+/* div{
+    color: bisque;
+    background-color: black;
+} */
+
+
+
+/* div>h1 , h2{
+    color: cyan;
+}
+
+h1{
+    color: blue;
+}
+
+div ~ p{
+    color:crimson;
+}
+
+div+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: goldenrod;
+} */
+
+#div1 > h1{
+    color: red;
+}
+
+
+
