@@ -1,0 +1,26 @@
+h1{
+    color: orange;
+    font-style: italic;
+    font-weight: 100;
+    font-size: large;
+    font-family: "Rubik Storm", system-ui;
+}
+
+h2{
+    color: #e4e8ea;
+    background-color: #000;
+}
+
+h3{
+    color: rgb(0, 255, 0);
+}
+
+h4{
+    color: rgba(255,0,0,0.8);
+    background-color: #000;
+}
+
+h5{
+    color: hsl(0, 80%, 50%);
+    background-color: lightblue;
+}

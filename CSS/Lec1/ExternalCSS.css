@@ -18,7 +18,7 @@ h2,p{
 
 
 
-/* div>h1 , h2{
+div>h1 , h2{
     color: cyan;
 }
 
@@ -33,7 +33,7 @@ div ~ p{
 div+p{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: goldenrod;
-} */
+}
 
 #div1 > h1{
     color: red;

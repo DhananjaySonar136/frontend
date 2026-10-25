@@ -1,0 +1,53 @@
+/* Combinator Selectors */
+
+div > h1 ,p{
+    color: red;
+}
+
+h1{
+    color:green
+}
+
+div>h1{   /* if h1 immediate to div below div*/ 
+    color:orange;  
+}
+
+div+div>p{
+    color:blue;
+}
+
+
+div ~ h1{
+    background-color: aqua;
+}
+
+div>p ,div p{
+
+    color: hotpink;
+}
+
+h1:hover{
+    background-color: chartreuse;
+}
+
+h1::after{
+    content: "Welcomes you";
+}
+
+input[type="text"]{
+    background-color: green;
+    color: aliceblue;
+}
+
+input[type="password"]{
+    background-color: black;
+    color: blue;
+}
+
+input[placeholder="enter email"]{
+    background-color: brown;
+}
+
+#email:hover{
+    color: white;
+}
