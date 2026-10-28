@@ -1,0 +1,31 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h2{
+    text-align: center;
+    color: yellow;
+}
+
+h3{
+    color: orange;
+    margin-bottom: 0px;
+}
+.movies{
+    background-color: grey;
+    width: 600px;
+    height: 290px; 
+    border-radius:  0px 0px 12px 12px;
+    margin-top: 0px;
+}
+
+section p{
+    background-color: rgba(0, 0, 0, 0.701);
+    color: rgb(255, 255, 255);
+}
+
+.tagline{
+    text-align: center;
+    color: green;
+}

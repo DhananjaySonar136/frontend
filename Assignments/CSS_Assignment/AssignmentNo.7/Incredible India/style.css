@@ -1,0 +1,40 @@
+*{
+    font-family: "Quicksand", sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+header>h1{
+    color: blue;
+}
+
+.popular{
+    color: green;
+    text-align: center;
+    text-decoration: underline;
+}
+
+h3{
+    color: green;
+}
+
+.city{
+    background-color: aqua;
+    width: 650px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.places{
+    color:crimson;
+}
+
+#tagline{
+    text-align: center;
+}
+
+.visit{
+    letter-spacing: 2.6px;
+}
