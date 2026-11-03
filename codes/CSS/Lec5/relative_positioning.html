@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative positioning</title>
+
+    <style>
+        div{
+            background-color: aqua;
+        }
+
+        .maindiv{
+            width: 600px;
+            height: 600px;
+            margin: 100px auto;
+            position: relative; 
+            
+        }
+        .box1{
+            background-color: bisque;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+
+        }
+
+        .box2{
+            background-color:cadetblue;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .box3{
+            background-color: violet;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+        }
+
+        .box4{
+            background-color: red;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        .box5{
+            background-color: coral;
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            bottom: 250px;
+            right: 250px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="maindiv">
+        <div class="box1">
+            <p>Nandurbar</p>
+        </div>
+        <div class="box2">
+            <p>Pune</p>
+        </div>
+        <div class="box3">
+            <p>Chennai</p>
+        </div>
+        <div class="box4">
+            <p>Mumbai</p>
+        </div>
+        <div class="box5">
+            <p>Nashik</p>
+        </div>
+    </div>
+
+</body>
+</html>
